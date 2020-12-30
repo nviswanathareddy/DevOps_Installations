@@ -60,3 +60,5 @@ Installing java 11 openjdk
 ```bash
 sudo apt install openjdk-11-jre-headless
 ```
+
+Install jenkins as a war file
