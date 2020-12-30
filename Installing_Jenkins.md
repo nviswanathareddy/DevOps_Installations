@@ -46,5 +46,17 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 
 Update your local package index, then finally installing Jenkins
 ```bash
-yum update && yum install jenkins
+sudo yum update && yum install jenkins
+```
+
+Checking the Jenkins status and starting if not
+```bash
+sudo service status jenkins
+sudo service start jenkins
+sudo service stop jenkins
+```
+
+Installing java 11 openjdk
+```bash
+sudo apt install openjdk-11-jre-headless
 ```
